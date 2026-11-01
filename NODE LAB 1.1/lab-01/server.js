@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
 
 app.get("/about", (req, res) => {
     res.json({
-        name: "Srinath Raju",
+        name: "sriketh",
         section: "CSE GEN AI 304"
     });
 });
