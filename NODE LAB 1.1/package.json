@@ -1,0 +1,12 @@
+{
+  "name": "node-labs",
+  "private": true,
+  "workspaces": [
+    "lab-01",
+    "lab-02"
+  ],
+  "scripts": {
+    "start:lab-01": "node lab-01/server.js",
+    "start:lab-02": "cd lab-02 && node init-db.js && node server.js"
+  }
+}
